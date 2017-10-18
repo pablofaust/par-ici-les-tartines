@@ -1,0 +1,83 @@
+/* NAVBAR */
+
+nav.navbar {
+	height: 15vh;
+	background-color: #fff!important;
+}
+
+a.navbar-brand {
+	font-size: 4.5vh;
+}
+
+button.navbar-toggler {
+	border: none;
+}
+
+/* CATEGORIE */
+
+div.categorie {
+	height: 10vh;
+	background-image: url("categorie-musique.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	width: 100vw;
+	position: fixed;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+div.filtre {
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	opacity: 0.3;
+}
+
+h1 {
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 4vh;
+}
+
+div.conteneur-articles {
+	display: flex;
+	flex-direction: column;
+	padding-left: 5vw;
+	padding-right: 5vw;	
+	margin-top: 10vh;
+	padding-bottom: 3vh;
+}
+
+div.carte-article {
+	height: 65vh;
+	display: flex;
+	flex-direction: column;
+	margin-top: 3vh;
+}
+
+div.illu-article {
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	height: 75%;
+}
+
+div.titre-article {
+	height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border: 2vh solid #212121;
+    margin-top: -1px;
+}
+
+.titre-article h2 {
+	font-size: 4vh;
+	margin-bottom: 0;
+}
